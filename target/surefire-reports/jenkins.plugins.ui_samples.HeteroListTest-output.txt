@@ -1,0 +1,54 @@
+Jul 21, 2017 4:31:18 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @1640ms
+Exploding /Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-war/1.625.3/jenkins-war-1.625.3-war-for-test.jar into /Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test
+Jul 21, 2017 4:31:24 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Jul 21, 2017 4:31:25 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /jenkins, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jul 21, 2017 4:31:25 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@1e461e41{/jenkins,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,AVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
+Jul 21, 2017 4:31:25 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@709321e7{HTTP/1.1}{localhost:60216}
+Jul 21, 2017 4:31:25 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @8363ms
+Jul 21, 2017 4:31:25 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:60216/jenkins/
+Jul 21, 2017 4:31:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jul 21, 2017 4:31:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jul 21, 2017 4:31:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jul 21, 2017 4:31:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jul 21, 2017 4:31:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jul 21, 2017 4:31:58 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jul 21, 2017 4:32:03 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 60249
+Jul 21, 2017 4:32:03 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jul 21, 2017 4:32:03 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:179)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:77)
+
+Jul 21, 2017 4:32:04 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.15.v20160210
+Jul 21, 2017 4:32:04 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@4879f0f2{/,null,AVAILABLE}
+Jul 21, 2017 4:32:04 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@2c31aa5e{HTTP/1.1}{0.0.0.0:60251}
+Jul 21, 2017 4:32:04 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @47194ms
+=== Starting Hetero_Radio_Roundtrip(jenkins.plugins.ui_samples.HeteroListTest)
+Jul 21, 2017 4:32:25 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@709321e7{HTTP/1.1}{localhost:0}
+Jul 21, 2017 4:32:25 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@1e461e41{/jenkins,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,UNAVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

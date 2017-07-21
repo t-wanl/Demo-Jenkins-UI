@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Group-Id: albertxavier
+Short-Name: demo-jenkins-ui
+Long-Name: Demo Jenkins UI
+Plugin-Version: 0.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/reso
+ urces,/Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java,/Us
+ ers/albertxavier/workspace/Demo-Jenkins-UI/target/classes
+Resource-Path: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/
+ webapp
+

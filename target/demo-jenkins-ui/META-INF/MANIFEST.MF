@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Built-By: albertxavier
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_45
+Extension-Name: demo-jenkins-ui
+Specification-Title: The Jenkins Plugins Parent POM Project
+Implementation-Title: demo-jenkins-ui
+Implementation-Version: 0.1
+Group-Id: albertxavier
+Short-Name: demo-jenkins-ui
+Long-Name: Demo Jenkins UI
+Plugin-Version: 0.1
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+

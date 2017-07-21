@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='albertxavier' artifactId='demo-jenkins-ui' version='0.1'><l:dependency name='Demo Jenkins UI' groupId='albertxavier' artifactId='demo-jenkins-ui' version='0.1' url=''><l:description>The Jenkins Plugins Parent POM Project</l:description><l:license name='MIT' url='http://www.opensource.org/licenses/mit-license.php'/></l:dependency></l:dependencies>
