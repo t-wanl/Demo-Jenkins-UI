@@ -29,17 +29,17 @@ THE SOFTWARE.
 
       <h2>Groovy Templates</h2>
 
-      <table>
-        <j:forEach var="s" items="${it.allGroovy}">
-          <t:summary icon="document.gif"
-                     href="${s.urlName}" iconOnly="true">
-            <div class="link"><a href="${href}">${s.displayName}</a></div>
-            <div style="color:gray; text-decoration:none;">
-              <j:out value="${s.description}"/>
-            </div>
-          </t:summary>
-        </j:forEach>
-      </table>
+      <!--<table>-->
+        <!--<j:forEach var="s" items="${it.allGroovy}">-->
+          <!--<t:summary icon="document.gif"-->
+                     <!--href="${s.urlName}" iconOnly="true">-->
+            <!--<div class="link"><a href="${href}">${s.displayName}</a></div>-->
+            <!--<div style="color:gray; text-decoration:none;">-->
+              <!--<j:out value="${s.description}"/>-->
+            <!--</div>-->
+          <!--</t:summary>-->
+        <!--</j:forEach>-->
+      <!--</table>-->
 
       <h2>Jelly Templates</h2>
       
