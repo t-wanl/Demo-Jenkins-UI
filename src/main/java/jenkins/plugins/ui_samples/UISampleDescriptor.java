@@ -5,6 +5,7 @@ import hudson.ExtensionPoint;
 import hudson.model.Action;
 import hudson.model.Hudson;
 import hudson.model.Descriptor;
+import hudson.model.Describable;
 import jenkins.model.Jenkins;
 import hudson.DescriptorExtensionList;
 
@@ -14,10 +15,15 @@ import java.lang.reflect.Type;
 /**
  * @author Kohsuke Kawaguchi
  */
-public abstract class UISampleDescriptor extends Descriptor<UISample>  implements Action {
+public abstract class UISampleDescriptor extends Descriptor<UISample>  implements Action, Describable<UISample> {
     @Override
     public String getDisplayName() {
         return clazz.getSimpleName();
+    }
+
+    @Override
+    public Descriptor<UISample> getDescriptor() {
+        return Jenkins.getInstance().getDescriptor(getClass());
     }
 
     public String getIconFileName() {

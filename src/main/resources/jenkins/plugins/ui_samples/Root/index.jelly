@@ -22,12 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:s="/lib/samples">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:s="/lib/samples" xmlns:ui="/ui">
   <l:layout title="UI Samples">
     <l:main-panel>
       <h1>UI Samples</h1>
 
-      <h2>Groovy Templates</h2>
+      <!--<h2>Groovy Templates</h2>-->
 
       <!--<table>-->
         <!--<j:forEach var="s" items="${it.allGroovy}">-->
@@ -41,7 +41,7 @@ THE SOFTWARE.
         <!--</j:forEach>-->
       <!--</table>-->
 
-      <h2>Jelly Templates</h2>
+      <!--<h2>Jelly Templates</h2>-->
       
       <table>
         <j:forEach var="s" items="${it.allOther}">

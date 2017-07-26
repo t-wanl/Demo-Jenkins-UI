@@ -23,8 +23,8 @@ THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:s="/lib/samples" xmlns:ui="/ui">
-  <s:sample title="Dropdown List Sample">
-    <form action="submit" method="post">
+  <!--<s:sample title="Dropdown List Sample"></s:sample>-->
+    <!--<form action="submit" method="post">-->
 
 
       <!--<table>-->
@@ -54,25 +54,26 @@ THE SOFTWARE.
 
       <!--</table>-->
 
-      <table name="haha">
-        <ui:dropdownList title="Demo" name="dropdownListSelected" tablename="dropdownListContent">
+  <!--tablename="dropdownListContent"-->
+  <!--${it == null || it.isType('apple')}-->
+  <!--${it.isType('banana')}-->
+      <!--<table name="haha" width="100%">-->
+        <!--<f:dropdownList title="Demo" name="dropdownListSelected">-->
 
-          <f:dropdownListBlock title="Apple" value="apple" selected="${it == null || it.isType('apple')}">
+          <!--<f:dropdownListBlock title="Apple" value="apple" selected="true">-->
             <!--<f:entry title="Number of apple">-->
               <!--<f:textbox/>-->
             <!--</f:entry>-->
-          </f:dropdownListBlock>
+          <!--</f:dropdownListBlock>-->
+          <!--<f:dropdownListBlock title="Banana" value="banana" selected="false">-->
+            <!--<f:checkbox name="yellow" checked="true" title="Yellow?"/>-->
+          <!--</f:dropdownListBlock>-->
 
-
-          <f:dropdownListBlock title="Banana" value="banana" selected="${it.isType('banana')}">
-            <!--<f:checkbox name="yellow" checked="${instance.isYellow}" title="Yellow?"/>-->
-          </f:dropdownListBlock>
-
-        </ui:dropdownList>
+        <!--</f:dropdownList>-->
 
         <!--<f:validateButton title="Verify" progress="Verifying..." method="verify" with=""/>-->
-      </table>
+      <!--</table>-->
 
-    </form>
-  </s:sample>
+    <!--</form>-->
+
 </j:jelly>

@@ -22,9 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:s="/lib/samples" xmlns:ui="/ui">
-  <s:sample title="Dropdown List Sample">
-    <form action="submit" method="post">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form"  xmlns:ui="/ui">
+  <!--<s:sample title="Dropdown List Sample">-->
+    <!--<form action="submit" method="post">-->
 
 
       <!--<table>-->
@@ -54,25 +54,40 @@ THE SOFTWARE.
 
       <!--</table>-->
 
-      <table name="haha">
+  <!---->
+  <!---->
+  <!---->
+
+  <l:layout title="xxx">
+    <l:main-panel>
+      <!--${instance == null || instance.isType('apple')}-->
+      <!--${instance.isType('banana')}-->
+      <f:form  action="submit" method="post" name="aaa" >
+      <table name="haha" width="100%">
         <ui:dropdownList title="Demo" name="dropdownListSelected" tablename="dropdownListContent">
 
-          <f:dropdownListBlock title="Apple" value="apple" selected="${it == null || it.isType('apple')}">
-            <!--<f:entry title="Number of apple">-->
-              <!--<f:textbox/>-->
-            <!--</f:entry>-->
+          <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
+            <f:entry title="Number of apple">
+              <f:textbox/>
+            </f:entry>
           </f:dropdownListBlock>
-
-
-          <f:dropdownListBlock title="Banana" value="banana" selected="${it.isType('banana')}">
-            <!--<f:checkbox name="yellow" checked="${instance.isYellow}" title="Yellow?"/>-->
+          <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
+            <f:entry title="">
+              <f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>
+            </f:entry>
           </f:dropdownListBlock>
 
         </ui:dropdownList>
+        <j:set var="descriptor" value="${it.descriptor}"/>
+        <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
 
-        <!--<f:validateButton title="Verify" progress="Verifying..." method="verify" with=""/>-->
       </table>
+      </f:form>
+    </l:main-panel>
+  </l:layout>
 
-    </form>
-  </s:sample>
+
+  <!--</s:sample>-->
+    <!--</form>-->
+
 </j:jelly>

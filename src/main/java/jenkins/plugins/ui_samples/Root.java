@@ -30,8 +30,8 @@ public class Root implements RootAction, ModelObjectWithContextMenu {
         return "ui-samples";
     }
 
-    public UISampleDescriptor getDynamic(String name) {
-        for (UISampleDescriptor ui : getDesAll()) {
+    public UISample getDynamic(String name) {
+        for (UISample ui : getAll()) {
             System.out.println("ui   = " +  ui.getUrlName());
             System.out.println("name = " + name);
             if (ui.getUrlName().equals(name))
@@ -63,7 +63,7 @@ public class Root implements RootAction, ModelObjectWithContextMenu {
     }
     
     public ContextMenu doContextMenu(StaplerRequest request, StaplerResponse response) throws Exception {
-//        return new ContextMenu().addAll(getAll());
-        return new ContextMenu().addAll(getDesAll());
+        return new ContextMenu().addAll(getAll());
+//        return new ContextMenu().addAll(getDesAll());
     }
 }
