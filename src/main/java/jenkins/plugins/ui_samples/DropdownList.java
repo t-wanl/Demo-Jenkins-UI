@@ -3,9 +3,11 @@ package jenkins.plugins.ui_samples;
 import hudson.DescriptorExtensionList;
 import hudson.Extension;
 import hudson.ExtensionPoint;
+import hudson.RelativePath;
 import hudson.model.Describable;
 import hudson.model.Descriptor;
 import hudson.util.FormValidation;
+import hudson.util.ListBoxModel;
 import jenkins.model.Jenkins;
 import hudson.util.XStream2;
 import java.io.IOException;
@@ -32,18 +34,32 @@ public class DropdownList extends UISample {
     }
 
     private String dropdownListSelected;
+    private String dropdownListSelectedAaa;
+    private String preSelect;
 
     public String getDropdownListSelected() {
         return dropdownListSelected;
     }
 
-    public DropdownList() {
-        this(DEFAULT_SELECTED);
+    public String getDropdownListSelectedAaa() {
+        return dropdownListSelectedAaa;
     }
-    @DataBoundConstructor public DropdownList(final String dropdownListSelected) {
+
+    public String getPreSelect() {
+        return preSelect;
+    }
+
+    public DropdownList() {
+        this(DEFAULT_SELECTED, DEFAULT_SELECTED, DEFAULT_SELECTED);
+    }
+    @DataBoundConstructor public DropdownList(
+            final String dropdownListSelected,
+            final String dropdownListSelectedAaa,
+            final String preSelect
+    ) {
         super();
         this.dropdownListSelected = dropdownListSelected;
-//        load();
+        this.preSelect = preSelect;
     }
 
     public Boolean isType(final String type) {
@@ -54,18 +70,35 @@ public class DropdownList extends UISample {
     }
 
     @Extension
-    public static final class DropDownListDes extends UISampleDescriptor {
+    public static final class DescriptorImpl extends UISampleDescriptor {
 
         @Override
         public String getDisplayName() {
             return "DropdownList";
         }
 
+        public ListBoxModel doFillPreSelectItems() throws IOException, ServletException  {
+            ListBoxModel model = new ListBoxModel();
+            model.add("Apple", "apple");
+            model.add("Banana", "banana");
+            return model;
+        }
+
         public FormValidation doVerify(
                 @QueryParameter String dropdownListSelected
                 ) {
             System.out.println(dropdownListSelected);
-            return FormValidation.ok(dropdownListSelected);
+            String feedback = "You select " + dropdownListSelected;
+            return FormValidation.ok(feedback);
+        }
+
+        public String doFillDropdownListSelectedAaaItems(
+                @QueryParameter String preSelect
+        ) throws IOException, ServletException {
+            if (preSelect.equalsIgnoreCase("apple")) {
+                return "apple";
+            }
+            return "banana";
         }
     }
 

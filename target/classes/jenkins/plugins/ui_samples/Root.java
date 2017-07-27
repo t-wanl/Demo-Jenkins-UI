@@ -32,8 +32,6 @@ public class Root implements RootAction, ModelObjectWithContextMenu {
 
     public UISample getDynamic(String name) {
         for (UISample ui : getAll()) {
-            System.out.println("ui   = " +  ui.getUrlName());
-            System.out.println("name = " + name);
             if (ui.getUrlName().equals(name))
                 return ui;
         }
@@ -41,29 +39,14 @@ public class Root implements RootAction, ModelObjectWithContextMenu {
     }
 
     public List<UISample> getAll() {
-        for (UISample a: UISample.all()) {
-            System.out.println(a);
-        }
         return UISample.all();
     }
 
-    public List<UISampleDescriptor> getDesAll() {
-        for (Descriptor<UISample> a: UISampleDescriptor.all()) {
-            System.out.println(a);
-        }
-        return UISampleDescriptor.all();
+    public List<UISample> getAllSamples() {
+        return UISample.getAllSamples();
     }
-    
-//    public List<UISample> getAllGroovy() {
-//      return UISample.getGroovySamples();
-//    }
 
-    public List<UISample> getAllOther() {
-      return UISample.getOtherSamples();
-    }
-    
     public ContextMenu doContextMenu(StaplerRequest request, StaplerResponse response) throws Exception {
         return new ContextMenu().addAll(getAll());
-//        return new ContextMenu().addAll(getDesAll());
     }
 }

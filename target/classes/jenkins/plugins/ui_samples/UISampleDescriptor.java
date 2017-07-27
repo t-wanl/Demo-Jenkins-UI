@@ -15,15 +15,10 @@ import java.lang.reflect.Type;
 /**
  * @author Kohsuke Kawaguchi
  */
-public abstract class UISampleDescriptor extends Descriptor<UISample>  implements Action, Describable<UISample> {
+public abstract class UISampleDescriptor extends Descriptor<UISample> {
     @Override
     public String getDisplayName() {
         return clazz.getSimpleName();
-    }
-
-    @Override
-    public Descriptor<UISample> getDescriptor() {
-        return Jenkins.getInstance().getDescriptor(getClass());
     }
 
     public String getIconFileName() {
@@ -44,18 +39,4 @@ public abstract class UISampleDescriptor extends Descriptor<UISample>  implement
     /**
      * Returns all the registered {@link UISample}s.
      */
-    public static ExtensionList<UISampleDescriptor> all() {
-
-//        DescriptorExtensionList<UISample,UISampleDescriptor> desList = Jenkins.getInstance().<UISample,UISampleDescriptor>getDescriptorList(UISample.class);
-//        ExtensionList<UISample> list = new ExtensionList<UISample>();
-//        for (UISampleDescriptor a : desList) {
-//            Type type = a.getClass().getGenericSuperclass();
-//            ParameterizedType p=(ParameterizedType)type;
-//            Class c=(Class) p.getActualTypeArguments()[0];
-//            list.add(c);
-//        }
-//        return list;
-//        return Jenkins.getInstance().<UISample, Descriptor<UISample> >getDescriptorList(UISample.class);
-        return Jenkins.getInstance().getExtensionList(UISampleDescriptor.class);
-    }
 }

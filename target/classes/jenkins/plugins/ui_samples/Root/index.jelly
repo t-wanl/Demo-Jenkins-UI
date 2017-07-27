@@ -44,7 +44,7 @@ THE SOFTWARE.
       <!--<h2>Jelly Templates</h2>-->
       
       <table>
-        <j:forEach var="s" items="${it.allOther}">
+        <j:forEach var="s" items="${it.allSamples}">
           <t:summary icon="document.gif"
                      href="${s.urlName}" iconOnly="true">
             <div class="link"><a href="${href}">${s.displayName}</a></div>

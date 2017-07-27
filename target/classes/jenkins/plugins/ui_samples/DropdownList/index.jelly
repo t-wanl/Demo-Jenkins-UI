@@ -22,72 +22,55 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form"  xmlns:ui="/ui">
-  <!--<s:sample title="Dropdown List Sample">-->
-    <!--<form action="submit" method="post">-->
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/ui">
 
 
-      <!--<table>-->
-        <!--<j:set var="currentFruit" value="${it.fruit}"/>-->
-        <!--&lt;!&ndash; getJSONObject("fruit") in java code gets data for this block &ndash;&gt;-->
-        <!--&lt;!&ndash; A @DataBoundConstructor with parameter "Fruit fruit" can also be used &ndash;&gt;-->
-        <!--<ui:dropdownList name="fruitSelected" tablename="fruit" title="Fruits">-->
-          <!--&lt;!&ndash; Loop through available fruit types &ndash;&gt;-->
-          <!--<j:forEach var="descriptor" items="${it.fruitDescriptors}" varStatus="loop">-->
-            <!--&lt;!&ndash; Set "fruit" only if it matches this descriptor &ndash;&gt;-->
-            <!--<j:set var="fruit" value="${descriptor==currentFruit.descriptor?currentFruit:null}"/>-->
-            <!--<f:dropdownListBlock title="${descriptor.displayName}" value="${loop.index}"-->
-                                 <!--selected="${fruit!=null}" staplerClass="${descriptor.clazz.name}">-->
-              <!--&lt;!&ndash; Include config.jelly for this fruit type &ndash;&gt;-->
-              <!--<st:include page="${descriptor.configPage}" from="${descriptor}"/>-->
-            <!--</f:dropdownListBlock>-->
-          <!--</j:forEach>-->
-        <!--</ui:dropdownList>-->
+  <s:sample title="Dropdown List Sample">
 
-        <!--<f:entry title="">-->
-          <!--<f:validateButton title="Verify" method="verify" progress="Verifying" with="fruitSelected"></f:validateButton>-->
-        <!--</f:entry>-->
-
-        <!--<f:entry title="" >-->
-          <!--<f:submit value="Submit"/>-->
-        <!--</f:entry>-->
-
-      <!--</table>-->
-
-  <!---->
-  <!---->
-  <!---->
-
-  <l:layout title="xxx">
-    <l:main-panel>
-      <!--${instance == null || instance.isType('apple')}-->
-      <!--${instance.isType('banana')}-->
-      <f:form  action="submit" method="post" name="aaa">
-      <table name="haha" width="100%">
-        <ui:dropdownList title="Demo" name="dropdownListSelected" tablename="dropdownListContent">
-
-          <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
-            <f:entry title="Number of apple">
-              <f:textbox/>
-            </f:entry>
-          </f:dropdownListBlock>
-          <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
-            <f:entry title="">
-              <f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>
-            </f:entry>
-          </f:dropdownListBlock>
-
-        </ui:dropdownList>
-
-        <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
-
-      </table>
-      </f:form>
-    </l:main-panel>
-  </l:layout>
-
-
-  <!--</s:sample>-->
-    <!--</form>-->
+      <!--<f:section title="DropdownList selected Option">-->
+          <!--<p>DropdownList selected Option can be obtain by 'name' attribute, dropdownListBlock content can be obtain by 'tablename' attribute.</p>-->
+          <!--<p>Select different option in dropdownList, click Verify button to see what will happen.</p>-->
+          <!--<p> </p>-->
+              <!--<table width="100%">-->
+                <!--<ui:dropdownList title="Fruit" name="dropdownListSelected" tablename="dropdownListContent">-->
+                  <!--<f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">-->
+                    <!--<f:entry title="Number of apple">-->
+                      <!--<f:textbox/>-->
+                    <!--</f:entry>-->
+                  <!--</f:dropdownListBlock>-->
+                  <!--<f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">-->
+                    <!--<f:entry title="">-->
+                      <!--<f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>-->
+                    <!--</f:entry>-->
+                  <!--</f:dropdownListBlock>-->
+                <!--</ui:dropdownList>-->
+                <!--<f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>-->
+              <!--</table>-->
+      <!--</f:section>-->
+      
+      <f:section title="DropsdownList depend on other UI controller">
+          <p>Select different radio button below to see what will happen.</p>
+          <p> </p>
+          <f:form name="from2" method="" action="post">
+          <table width="100%">
+              <f:entry title="Select Fruit" field="preSelect">
+                  <f:select/>
+              </f:entry>
+              <ui:dropdownList title="Fruit" name="dropdownListSelectedAaa" tablename="dropdownListContentAaa">
+                  <f:dropdownListBlock title="Apple" value="apple" selected="true">
+                      <f:entry title="Number of apple">
+                          <f:textbox/>
+                      </f:entry>
+                  </f:dropdownListBlock>
+                  <f:dropdownListBlock title="Banana" value="banana" selected="false">
+                      <f:entry title="">
+                          <f:checkbox name="yellow" checked="true" title="Yellow?"/>
+                      </f:entry>
+                  </f:dropdownListBlock>
+              </ui:dropdownList>
+          </table>
+          </f:form>
+      </f:section>
+  </s:sample>
 
 </j:jelly>

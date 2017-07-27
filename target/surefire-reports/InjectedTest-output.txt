@@ -1,35 +1,35 @@
-Jul 26, 2017 7:08:19 PM org.eclipse.jetty.util.log.Log initialized
-INFO: Logging initialized @849ms
+Jul 27, 2017 3:57:30 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @917ms
 Picking up existing exploded jenkins.war at /Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test
-Jul 26, 2017 7:08:20 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
 WARNING: Empty contextPath
-Jul 26, 2017 7:08:21 PM org.eclipse.jetty.server.Server doStart
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Jul 26, 2017 7:08:21 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
 INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
-Jul 26, 2017 7:08:21 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.server.handler.ContextHandler doStart
 INFO: Started o.e.j.w.WebAppContext@3d9f6567{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,AVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
-Jul 26, 2017 7:08:21 PM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@704f1591{HTTP/1.1}{localhost:63794}
-Jul 26, 2017 7:08:21 PM org.eclipse.jetty.server.Server doStart
-INFO: Started @2553ms
-Jul 26, 2017 7:08:22 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@704f1591{HTTP/1.1}{localhost:56422}
+Jul 27, 2017 3:57:32 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @2443ms
+Jul 27, 2017 3:57:33 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started initialization
-Jul 26, 2017 7:08:34 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:45 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Listed all plugins
-Jul 26, 2017 7:08:34 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:45 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Prepared all plugins
-Jul 26, 2017 7:08:34 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:45 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started all plugins
-Jul 26, 2017 7:08:34 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:45 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Augmented all extensions
-Jul 26, 2017 7:08:36 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:47 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Loaded all jobs
-Jul 26, 2017 7:08:38 PM org.jenkinsci.main.modules.sshd.SSHD start
-INFO: Started SSHD at port 63841
-Jul 26, 2017 7:08:38 PM jenkins.InitReactorRunner$1 onAttained
+Jul 27, 2017 3:57:50 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 56487
+Jul 27, 2017 3:57:50 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Completed initialization
-Jul 26, 2017 7:08:38 PM hudson.UDPBroadcastThread run
+Jul 27, 2017 3:57:50 AM hudson.UDPBroadcastThread run
 WARNING: UDP handling problem
 java.net.SocketException: Can't assign requested address
 	at java.net.PlainDatagramSocketImpl.join(Native Method)
@@ -37,40 +37,17 @@ java.net.SocketException: Can't assign requested address
 	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
 	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:77)
 
-Jul 26, 2017 7:08:38 PM org.eclipse.jetty.server.Server doStart
+Jul 27, 2017 3:57:50 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Jul 26, 2017 7:08:38 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+Jul 27, 2017 3:57:50 AM org.eclipse.jetty.server.handler.ContextHandler doStart
 INFO: Started o.e.j.s.ServletContextHandler@290b1b2e{/,null,AVAILABLE}
-Jul 26, 2017 7:08:38 PM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@5db4c359{HTTP/1.1}{0.0.0.0:63843}
-Jul 26, 2017 7:08:38 PM org.eclipse.jetty.server.Server doStart
-INFO: Started @19758ms
-Jul 26, 2017 7:08:41 PM org.eclipse.jetty.server.AbstractConnector doStop
+Jul 27, 2017 3:57:50 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@5db4c359{HTTP/1.1}{0.0.0.0:56489}
+Jul 27, 2017 3:57:50 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @20101ms
+Jul 27, 2017 3:57:53 AM org.eclipse.jetty.server.AbstractConnector doStop
 INFO: Stopped ServerConnector@704f1591{HTTP/1.1}{localhost:0}
-Jul 26, 2017 7:08:41 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+Jul 27, 2017 3:57:53 AM org.eclipse.jetty.server.handler.ContextHandler doStop
 INFO: Stopped o.e.j.w.WebAppContext@3d9f6567{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,UNAVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
-Jul 26, 2017 7:08:41 PM hudson.TcpSlaveAgentListener shutdown
-WARNING: Failed to close down TCP port
-java.io.IOException: No such file or directory
-	at sun.nio.ch.NativeThread.signal(Native Method)
-	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
-	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
-	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
-	at hudson.TcpSlaveAgentListener.shutdown(TcpSlaveAgentListener.java:119)
-	at jenkins.model.Jenkins.cleanUp(Jenkins.java:2820)
-	at org.jvnet.hudson.test.HudsonTestCase.tearDown(HudsonTestCase.java:422)
-	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.tearDown(JellyTestSuiteBuilder.java:148)
-	at org.jvnet.hudson.test.junit.GroupedTest.run(GroupedTest.java:53)
-	at junit.framework.TestSuite.runTest(TestSuite.java:252)
-	at junit.framework.TestSuite.run(TestSuite.java:247)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:86)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-
 WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
 WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

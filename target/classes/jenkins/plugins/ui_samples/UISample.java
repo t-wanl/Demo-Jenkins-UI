@@ -37,34 +37,39 @@ public abstract class UISample implements ExtensionPoint, Action, Describable<UI
         return getClass().getSimpleName();
     }
 
-    /**
-     * Source files associated with this sample.
-     */
-//    public List<SourceFile> getSourceFiles() {
-//        List<SourceFile> r = new ArrayList<SourceFile>();
-//
-//        r.add(new SourceFile(getClass().getSimpleName()+".java"));
-//        for (String name : new String[]{"index.jelly","index.groovy"}) {
-//            SourceFile s = new SourceFile(name);
-//            if (s.resolve()!=null)
-//                r.add(s);
-//        }
-//        return r;
-//    }
+    public List<SourceFile> getSourceFiles() {
+        List<SourceFile> r = new ArrayList<SourceFile>();
+
+        r.add(new SourceFile(getClass().getSimpleName()+".java"));
+        for (String name : new String[]{"index.jelly","index.groovy"}) {
+            SourceFile s = new SourceFile(name);
+            if (s.resolve()!=null)
+                r.add(s);
+        }
+        return r;
+    }
 
     /**
      * Binds {@link SourceFile}s into URL.
      */
-//    public void doSourceFile(StaplerRequest req, StaplerResponse rsp) throws IOException {
-//        String name = req.getRestOfPath().substring(1); // Remove leading /
-//        for (SourceFile sf : getSourceFiles())
-//            if (sf.name.equals(name)) {
-//                sf.doIndex(rsp);
-//                return;
-//            }
-//        rsp.sendError(rsp.SC_NOT_FOUND);
-//    }
+    public void doSourceFile(StaplerRequest req, StaplerResponse rsp) throws IOException {
+        String name = req.getRestOfPath().substring(1); // Remove leading /
+        for (SourceFile sf : getSourceFiles())
+            if (sf.name.equals(name)) {
+                sf.doIndex(rsp);
+                return;
+            }
+        rsp.sendError(rsp.SC_NOT_FOUND);
+    }
 
+    public static List<UISample> getAllSamples() {
+        List<UISample> r = new ArrayList<UISample>();
+        OUTER:
+        for (UISample uiSample : UISample.all()) {
+            r.add(uiSample);
+        }
+        return r;
+    }
     /**
      * Returns a paragraph of natural text that describes this sample.
      * Interpreted as HTML.
@@ -85,44 +90,31 @@ public abstract class UISample implements ExtensionPoint, Action, Describable<UI
     }
 
 
-//
-
-    public static List<UISample> getOtherSamples() {
-        List<UISample> r = new ArrayList<UISample>();
-        OUTER:
-        for (UISample uiSample : UISample.all()) {
-//            for (SourceFile src : uiSample.getSourceFiles()) {
-//                if (src.name.contains("groovy")) {
-//                    continue OUTER;
-//                }
-//            }
-            r.add(uiSample);
-        }
-        return r;
-    }
-
     /**
      * @author Kohsuke Kawaguchi
      */
-//    public class SourceFile {
-//        public final String name;
-//
-//        public SourceFile(String name) {
-//            this.name = name;
-//        }
-//
-//        public URL resolve() {
-//            return UISample.this.getClass().getResource(
-//                (name.endsWith(".jelly") || name.endsWith(".groovy")) ? UISample.this.getClass().getSimpleName()+"/"+name : name);
-//        }
-//
-//        /**
-//         * Serves this source file.
-//         */
-//        public void doIndex(StaplerResponse rsp) throws IOException {
-//            rsp.setContentType("text/plain;charset=UTF-8");
-//            copy(resolve().openStream(),rsp.getOutputStream());
-//        }
-//    }
+    public class SourceFile {
+        public final String name;
+
+        public SourceFile(String name) {
+            this.name = name;
+        }
+
+        public URL resolve() {
+            return UISample.this.getClass().getResource(
+                    (name.endsWith(".jelly") || name.endsWith(".groovy")) ? UISample.this.getClass().getSimpleName()+"/"+name : name);
+        }
+
+        /**
+         * Serves this source file.
+         */
+        public void doIndex(StaplerResponse rsp) throws IOException {
+            rsp.setContentType("text/plain;charset=UTF-8");
+            copy(resolve().openStream(),rsp.getOutputStream());
+        }
+    }
+
+
+
 
 }
