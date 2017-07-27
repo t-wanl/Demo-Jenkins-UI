@@ -2,65 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a43925-17c7-4ddd-bd54-ccf549abde48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList$DropDownListDes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/DropDownListDes/doVerify.stapler" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/lib/samples/xxsample.jelly" afterPath="$PROJECT_DIR$/src/main/resources/lib/samples/sample.jelly" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/lib/samples/xxtaglib" afterPath="$PROJECT_DIR$/src/main/resources/lib/samples/taglib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/annotations/hudson.Extension" afterPath="$PROJECT_DIR$/target/classes/META-INF/annotations/hudson.Extension" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui.hpi" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui.hpi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui.jar" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui/WEB-INF/lib/demo-jenkins-ui.jar" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui/WEB-INF/lib/demo-jenkins-ui.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js" afterPath="$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.stapler" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ui/dropdownList/dropdownList.js" afterPath="$PROJECT_DIR$/target/classes/ui/dropdownList/dropdownList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/findbugsXml.xml" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/DropdownList.DescriptorImpl.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/DropdownList.DescriptorImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/DropdownList.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/DropdownList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Root.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Root.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.SourceFile.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.SourceFile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISampleDescriptor.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISampleDescriptor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/DropdownList.DescriptorImpl.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/DropdownList.DescriptorImpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/DropdownList.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/DropdownList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Root.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Root.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.SourceFile.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.SourceFile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISampleDescriptor.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISampleDescriptor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-frame.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-frame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-summary.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-summary.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-use.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-use.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/InjectedTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/InjectedTest-output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/InjectedTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/InjectedTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-InjectedTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-InjectedTest.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -814,7 +756,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40031645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40031645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
