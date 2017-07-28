@@ -1,4 +1,5 @@
 /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/Root.java
 /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISample.java
+/Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/Radioblock.java
 /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java
 /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/DropdownList.java

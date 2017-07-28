@@ -71,8 +71,6 @@ THE SOFTWARE.
 
   <tr class="radioblock-invokeBody">
     <td class="setting-leftspace"><st:nbsp/></td>
-    <!--<td class="setting-name">-->
-    <!--</td>-->
     <td class="setting-main" colspan="3">
       <table width="100%">
         <d:invokeBody/>
@@ -80,6 +78,5 @@ THE SOFTWARE.
     </td>
   </tr>
 
-	<!-- end marker -->
 	<tr class="${attrs.inline?'':'row-set-end'} radio-block-end row-group-end" style="display:none" />
 </j:jelly>

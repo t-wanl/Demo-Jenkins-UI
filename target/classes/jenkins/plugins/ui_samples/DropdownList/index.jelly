@@ -27,48 +27,51 @@ THE SOFTWARE.
 
   <s:sample title="Dropdown List Sample">
 
-      <!--<f:section title="DropdownList selected Option">-->
+      <f:section title="DropdownList selected Option">
           <!--<p>DropdownList selected Option can be obtain by 'name' attribute, dropdownListBlock content can be obtain by 'tablename' attribute.</p>-->
-          <!--<p>Select different option in dropdownList, click Verify button to see what will happen.</p>-->
-          <!--<p> </p>-->
-              <!--<table width="100%">-->
-                <!--<ui:dropdownList title="Fruit" name="dropdownListSelected" tablename="dropdownListContent">-->
-                  <!--<f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">-->
-                    <!--<f:entry title="Number of apple">-->
-                      <!--<f:textbox/>-->
-                    <!--</f:entry>-->
-                  <!--</f:dropdownListBlock>-->
-                  <!--<f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">-->
-                    <!--<f:entry title="">-->
-                      <!--<f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>-->
-                    <!--</f:entry>-->
-                  <!--</f:dropdownListBlock>-->
-                <!--</ui:dropdownList>-->
-                <!--<f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>-->
-              <!--</table>-->
-      <!--</f:section>-->
+          <p>Select different option in dropdownList, click Verify button to see what will happen.</p>
+          <p> </p>
+          <f:form name="from1" method="" action="post">
+
+          <table width="100%">
+                <ui:dropdownList title="Fruit" name="dropdownListSelected" tablename="dropdownListContent">
+                  <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
+                    <f:entry title="Number of apple">
+                      <f:textbox/>
+                    </f:entry>
+                  </f:dropdownListBlock>
+                  <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
+                    <f:entry title="">
+                      <f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>
+                    </f:entry>
+                  </f:dropdownListBlock>
+                </ui:dropdownList>
+                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
+              </table>
+          </f:form>
+      </f:section>
       
       <f:section title="DropsdownList depend on other UI controller">
           <p>Select different radio button below to see what will happen.</p>
           <p> </p>
           <f:form name="from2" method="" action="post">
-          <table width="100%">
-              <f:entry title="Select Fruit" field="preSelect">
-                  <f:select/>
-              </f:entry>
-              <ui:dropdownList title="Fruit" name="dropdownListSelectedAaa" tablename="dropdownListContentAaa">
-                  <f:dropdownListBlock title="Apple" value="apple" selected="true">
-                      <f:entry title="Number of apple">
-                          <f:textbox/>
-                      </f:entry>
-                  </f:dropdownListBlock>
-                  <f:dropdownListBlock title="Banana" value="banana" selected="false">
-                      <f:entry title="">
-                          <f:checkbox name="yellow" checked="true" title="Yellow?"/>
-                      </f:entry>
-                  </f:dropdownListBlock>
-              </ui:dropdownList>
-          </table>
+              <table width="100%">
+                  <f:entry title="Select Fruit" field="preSelect">
+                      <f:select/>
+                  </f:entry>
+                  <ui:dropdownList title="Fruit" name="dropdownListSelectedAaa" tablename="dropdownListContentAaa">
+                      <f:dropdownListBlock title="Apple" value="apple" selected="true">
+                          <f:entry title="Number of apple">
+                              <f:textbox/>
+                          </f:entry>
+                      </f:dropdownListBlock>
+                      <f:dropdownListBlock title="Banana" value="banana" selected="false">
+                          <f:entry title="">
+                              <f:checkbox name="yellow" checked="true" title="Yellow?"/>
+                          </f:entry>
+                      </f:dropdownListBlock>
+                  </ui:dropdownList>
+              </table>
           </f:form>
       </f:section>
   </s:sample>

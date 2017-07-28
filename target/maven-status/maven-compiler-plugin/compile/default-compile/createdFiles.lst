@@ -7,4 +7,7 @@ jenkins/plugins/ui_samples/DropdownList/DescriptorImpl/doVerify.stapler
 jenkins/plugins/ui_samples/DropdownList/DescriptorImpl/doFillDropdownListSelectedAaaItems.stapler
 jenkins/plugins/ui_samples/UISample.class
 jenkins/plugins/ui_samples/DropdownList.class
+jenkins/plugins/ui_samples/Radioblock.class
+jenkins/plugins/ui_samples/Radioblock.stapler
+jenkins/plugins/ui_samples/Radioblock$DescriptorImpl.class
 META-INF/annotations/hudson.Extension

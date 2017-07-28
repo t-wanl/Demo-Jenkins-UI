@@ -9,8 +9,7 @@ var radioBlockSupport = {
     },
 
     // update one block based on the status of the given radio button
-    updateSingleButton : function(radio, blockStart, blockEnd) {
-        console.log("radio id = ", radio.id);
+    updateSingleButton : function(radio) {
         var show = radio.checked;
 
         if (radio.getAttribute("checked") == "true" &&
@@ -20,64 +19,30 @@ var radioBlockSupport = {
             radio.setAttribute("radioblock-init", "true");
         }
 
+        var blockStart = findAncestorClass(radio,"radio-block-start");
+        blockStart.setAttribute("ref", radio.id);
         $(blockStart).next().style.display = show ? "" : "none";
 
-        console.log("show = ", show);
-        console.log("$(blockStart).next() = ", $(blockStart).next());
-//        blockStart = $(blockStart);
-//        if (blockStart.getAttribute('hasHelp') == 'true') {
-//            n = blockStart.next();
-//        } else {
-//            n = blockStart;
-//        }
-//        while((n = n.next()) != blockEnd) {
-//            n.style.display = show ? "" : "none";
-//        }
         layoutUpdateCallback.call();
     }
 };
 
-// this needs to happen before TR.row-set-end rule kicks in.
 Behaviour.specify("INPUT.radio-block-control", 'radioBlock', -100, function(r) {
 
-//        console.log("iota = ", iota);
-//        console.log("r = ", r);
         r.id = "radio-block-"+(iota++);
-//        console.log("r.id = ", r.id);
-        // when one radio button is clicked, we need to update foldable block for
-        // other radio buttons with the same name. To do this, group all the
-        // radio buttons with the same name together and hang it under the form object
         var f = r.form;
         var radios = f.radios;
         if (radios == null)
             f.radios = radios = {};
 
         var g = radios[r.name];
-//        console.log("g = ", g);
         if (g == null) {
             radios[r.name] = g = object(radioBlockSupport);
             g.buttons = [];
         }
 
-        var s = findAncestorClass(r,"radio-block-start");
-        s.setAttribute("ref", r.id);
-
-        // find the end node
-        var e = (function() {
-            var e = s;
-            var cnt=1;
-            while(cnt>0) {
-                e = $(e).next();
-                if (Element.hasClassName(e,"radio-block-start"))
-                    cnt++;
-                if (Element.hasClassName(e,"radio-block-end"))
-                    cnt--;
-            }
-            return e;
-        })();
-
         var u = function() {
-            g.updateSingleButton(r,s,e);
+            g.updateSingleButton(r);
         };
         g.buttons.push(u);
 

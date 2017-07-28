@@ -1,0 +1,57 @@
+<!--
+The MIT License
+
+Copyright (c) 2004-2010, Oracle Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/ui">
+
+
+    <s:sample title="Dropdown List Sample">
+
+        <f:section title="DropdownList selected Option">
+            <p>Select different option in dropdownList, click Verify button to see what will happen.</p>
+            <p> </p>
+            <f:form name="from1" method="" action="post">
+                <ui:radioBlock name="fruit" value="apple" title="Apple" checked="true">
+                    <ui:radioBlock name="color" value="red" title="Red" checked="false">
+                        <p>Everyone likes red apples.</p>
+                        <ui:radioBlock name="size" value="small" title="Small" checked="true">
+                            <p>Tom like small apple.</p>
+                        </ui:radioBlock>
+                        <ui:radioBlock name="size" value="big" title="Big" checked="false">
+                            <p>Mike like big apple.</p>
+                        </ui:radioBlock>
+                    </ui:radioBlock>
+                    <ui:radioBlock name="color" value="green" title="Green" checked="true">
+                        <p>Who likes green apples?</p>
+                    </ui:radioBlock>
+                </ui:radioBlock>
+                <ui:radioBlock name="fruit" value="banana" title="Banana" checked="false">
+                    <p>Banana is yellow.</p>
+                </ui:radioBlock>
+            </f:form>
+        </f:section>
+
+
+    </s:sample>
+
+</j:jelly>
