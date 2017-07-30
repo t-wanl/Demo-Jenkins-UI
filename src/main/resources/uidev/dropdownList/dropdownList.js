@@ -29,7 +29,7 @@ function updateDropdownListView (e, url, config) {
 }
 
 
-Behaviour.specify("SELECT.dropdownList", 'select', 1, functindion(e) {
+Behaviour.specify("SELECT.dropdownList", 'select', 1, function(e) {
 
     if (e == null) return;
     refillOnChange(e,function(params) {
