@@ -35,17 +35,17 @@ THE SOFTWARE.
 
           <table width="100%">
                 <ui:dropdownList title="Fruit" name="dropdownListSelected" tablename="dropdownListContent">
-                  <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
-                    <f:entry title="Number of apple">
+              <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
+                  <f:entry title="Number of apple">
                       <f:textbox/>
-                    </f:entry>
-                  </f:dropdownListBlock>
-                  <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
-                    <f:entry title="">
+                  </f:entry>
+              </f:dropdownListBlock>
+              <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
+                  <f:entry title="">
                       <f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>
-                    </f:entry>
-                  </f:dropdownListBlock>
-                </ui:dropdownList>
+                  </f:entry>
+              </f:dropdownListBlock>
+          </ui:dropdownList>
                 <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
               </table>
           </f:form>

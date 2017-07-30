@@ -1,0 +1,79 @@
+<!--
+The MIT License
+
+Copyright (c) 2004-2010, Oracle Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form">
+
+
+  <s:sample title="Dropdown List Sample">
+
+      <f:section title="DropdownList selected Option">
+          <!--<p>DropdownList selected Option can be obtain by 'name' attribute, dropdownListBlock content can be obtain by 'tablename' attribute.</p>-->
+          <p>Select different option in dropdownList, click Verify button to see what will happen.</p>
+          <p> </p>
+          <f:form name="from1" method="" action="post">
+
+          <table width="100%">
+                <f:dropdownList title="Fruit" name="dropdownListSelected">
+              <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
+                  <f:entry title="Number of apple">
+                      <f:textbox/>
+                  </f:entry>
+              </f:dropdownListBlock>
+              <f:dropdownListBlock title="Banana" value="banana" selected="${instance.isType('banana')}">
+                  <f:entry title="">
+                      <f:checkbox name="yellow" checked="${fruit.yellow}" title="Yellow?"/>
+                  </f:entry>
+              </f:dropdownListBlock>
+          </f:dropdownList>
+                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
+              </table>
+          </f:form>
+      </f:section>
+      
+      <f:section title="DropsdownList depend on other UI controller">
+          <p>Select different radio button below to see what will happen.</p>
+          <p> </p>
+          <f:form name="from2" method="" action="post">
+              <table width="100%">
+                  <f:entry title="Select Fruit" field="preSelect">
+                      <f:select/>
+                  </f:entry>
+                  <f:dropdownList title="Fruit" name="dropdownListSelectedAaa">
+                      <f:dropdownListBlock title="Apple" value="apple" selected="true">
+                          <f:entry title="Number of apple">
+                              <f:textbox/>
+                          </f:entry>
+                      </f:dropdownListBlock>
+                      <f:dropdownListBlock title="Banana" value="banana" selected="false">
+                          <f:entry title="">
+                              <f:checkbox name="yellow" checked="true" title="Yellow?"/>
+                          </f:entry>
+                      </f:dropdownListBlock>
+                  </f:dropdownList>
+              </table>
+          </f:form>
+      </f:section>
+  </s:sample>
+
+</j:jelly>

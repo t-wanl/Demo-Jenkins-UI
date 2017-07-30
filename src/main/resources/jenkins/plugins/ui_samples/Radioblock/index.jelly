@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/ui">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/uidev">
 
 
     <s:sample title="Radioblock Sample">
@@ -31,7 +31,7 @@ THE SOFTWARE.
             <p>Select different radio buttons, see what will happen.</p>
             <p> </p>
             <f:form name="from1" method="" action="post">
-                <ui:radioBlock name="fruit" value="apple" title="Apple" checked="true">
+                <f:radioBlock name="fruit" value="apple" title="Apple" checked="true">
                     <ui:radioBlock name="color" value="red" title="Red" checked="false">
                         <ui:tab><p>Everyone likes red apples.</p></ui:tab>
                         <ui:radioBlock name="size" value="small" title="Small" checked="true">
@@ -45,14 +45,12 @@ THE SOFTWARE.
                     <ui:radioBlock name="color" value="green" title="Green" checked="true">
                         <ui:tab><p>Who likes green apples?</p></ui:tab>
                     </ui:radioBlock>
-                </ui:radioBlock>
+                </f:radioBlock>
                 <ui:radioBlock name="fruit" value="banana" title="Banana" checked="false">
                     <ui:tab><p>Banana is yellow?.</p></ui:tab>
                 </ui:radioBlock>
             </f:form>
         </f:section>
-
-
     </s:sample>
 
 </j:jelly>

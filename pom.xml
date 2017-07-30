@@ -56,7 +56,7 @@ THE SOFTWARE.
         <!--<repository>-->
         <!--<id>tags</id>-->
         <!--<name>Custom Tags</name>-->
-        <!--<url>https://github.com/t-wanl/tags/tree/master/jar/</url>-->
+        <!--<url>https://raw.githubusercontent.com/t-wanl/tags/master/jar/</url>-->
         <!--</repository>-->
         <repository>
             <id>repo.jenkins-ci.org</id>
