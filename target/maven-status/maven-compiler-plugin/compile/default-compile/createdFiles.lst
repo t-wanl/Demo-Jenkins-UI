@@ -15,7 +15,9 @@ jenkins/plugins/ui_samples/DropdownListJenkins/DescriptorImpl/doVerify.stapler
 jenkins/plugins/ui_samples/DropdownListJenkins.class
 jenkins/plugins/ui_samples/Radioblock$DescriptorImpl.class
 jenkins/plugins/ui_samples/Root.class
+jenkins/plugins/ui_samples/Template.stapler
 jenkins/plugins/ui_samples/RadioblockJenkins.class
 jenkins/plugins/ui_samples/RadioblockJenkins$DescriptorImpl.class
+jenkins/plugins/ui_samples/Template.class
 jenkins/plugins/ui_samples/UISample$SourceFile.class
 META-INF/annotations/hudson.Extension

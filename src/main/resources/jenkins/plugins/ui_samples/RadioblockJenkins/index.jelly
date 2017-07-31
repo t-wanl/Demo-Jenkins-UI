@@ -32,24 +32,26 @@ THE SOFTWARE.
             <f:form name="from1" method="" action="post">
                 <f:radioBlock name="fruit" value="apple" title="Apple" checked="true">
                     <f:radioBlock name="color" value="red" title="Red" checked="false">
-                        <p>Everyone likes red apples.</p>
+                        <f:entry><p>Everyone likes red apples.</p></f:entry>
                         <f:radioBlock name="size" value="small" title="Small" checked="true">
 
-                            <p>Tom like small apple.</p>
+                            <f:entry><p>Tom like small apple.</p></f:entry>
                         </f:radioBlock>
                         <f:radioBlock name="size" value="big" title="Big" checked="false">
-                            <p>Mike like big apple.</p>
+                            <f:entry><p>Mike like big apple.</p></f:entry>
                         </f:radioBlock>
                     </f:radioBlock>
                     <f:radioBlock name="color" value="green" title="Green" checked="true">
-                        <p>Who likes green apples?</p>
+                        <f:entry><p>Who likes green apples?</p></f:entry>
                     </f:radioBlock>
                 </f:radioBlock>
                 <f:radioBlock name="fruit" value="banana" title="Banana" checked="false">
-                    <p>Banana is yellow?.</p>
+                    <f:entry><p>Banana is yellow?.</p></f:entry>
                 </f:radioBlock>
             </f:form>
         </f:section>
+
+
     </s:sample>
 
 </j:jelly>

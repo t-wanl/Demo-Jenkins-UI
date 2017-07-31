@@ -31,26 +31,27 @@ THE SOFTWARE.
             <p>Select different radio buttons, see what will happen.</p>
             <p> </p>
             <f:form name="from1" method="" action="post">
-                <f:radioBlock name="fruit" value="apple" title="Apple" checked="true">
+                <ui:radioBlock name="fruit" value="apple" title="Apple" checked="true">
                     <ui:radioBlock name="color" value="red" title="Red" checked="false">
-                        <ui:tab><p>Everyone likes red apples.</p></ui:tab>
+                        <f:entry><p>Everyone likes red apples.</p></f:entry>
                         <ui:radioBlock name="size" value="small" title="Small" checked="true">
 
-                            <ui:tab><p>Tom like small apple.</p></ui:tab>
+                            <f:entry><p>Tom like small apple.</p></f:entry>
                         </ui:radioBlock>
                         <ui:radioBlock name="size" value="big" title="Big" checked="false">
-                            <ui:tab><p>Mike like big apple.</p></ui:tab>
+                            <f:entry><p>Mike like big apple.</p></f:entry>
                         </ui:radioBlock>
                     </ui:radioBlock>
                     <ui:radioBlock name="color" value="green" title="Green" checked="true">
-                        <ui:tab><p>Who likes green apples?</p></ui:tab>
+                        <f:entry><p>Who likes green apples?</p></f:entry>
                     </ui:radioBlock>
-                </f:radioBlock>
+                </ui:radioBlock>
                 <ui:radioBlock name="fruit" value="banana" title="Banana" checked="false">
-                    <ui:tab><p>Banana is yellow?.</p></ui:tab>
+                    <f:entry><p>Banana is yellow?.</p></f:entry>
                 </ui:radioBlock>
             </f:form>
         </f:section>
+
     </s:sample>
 
 </j:jelly>
