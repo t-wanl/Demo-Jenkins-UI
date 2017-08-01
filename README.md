@@ -1,4 +1,4 @@
-# Jenkins Dynamic Databinding UI Controller Library Demo
+# Jenkins Dynamic Databinding UI Control Library Demo
 
 This repository is the demo of [Jenkins Dynamic Databinding UI Control Library](https://github.com/t-wanl/Jenkins-Dynamic-Databinding-UI-Control-Library).
 
