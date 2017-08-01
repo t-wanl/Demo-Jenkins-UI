@@ -8,7 +8,15 @@ Jenkins-Version: 1.625.3
 Plugin-Developers: 
 Libraries: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/reso
  urces,/Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java,/Us
- ers/albertxavier/workspace/Demo-Jenkins-UI/target/classes
+ ers/albertxavier/workspace/Demo-Jenkins-UI/target/classes,/Users/albe
+ rtxavier/.m2/repository/org/apache/httpcomponents/httpcore/4.4.1/http
+ core-4.4.1.jar,/Users/albertxavier/.m2/repository/org/antlr/antlr4-ru
+ ntime/4.5/antlr4-runtime-4.5.jar,/Users/albertxavier/.m2/repository/c
+ om/jcraft/jsch/0.1.54/jsch-0.1.54.jar,/Users/albertxavier/.m2/reposit
+ ory/org/abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.tr
+ eelayout.core-1.0.1.jar,/Users/albertxavier/.m2/repository/org/apache
+ /httpcomponents/httpclient/4.5/httpclient-4.5.jar,/Users/albertxavier
+ /.m2/repository/albertxavier/tags/1.0/tags-1.0.jar
 Resource-Path: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/
  webapp
 
