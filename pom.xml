@@ -56,7 +56,7 @@ THE SOFTWARE.
         <repository>
         <id>tags</id>
         <name>Custom Tags</name>
-        <url>https://raw.githubusercontent.com/t-wanl/tags/master/jar/</url>
+        <url>https://raw.githubusercontent.com/t-wanl/Jenkins-Dynamic-Databinding-UI-Controller-Library/master/jar/</url>
         </repository>
         <repository>
             <id>repo.jenkins-ci.org</id>
@@ -79,7 +79,7 @@ THE SOFTWARE.
         </dependency>
         <dependency>
         <groupId>albertxavier</groupId>
-        <artifactId>tags</artifactId>
+        <artifactId>jenkins-dynamic-databinding-ui-controller-library</artifactId>
         <version>1.0</version>
         </dependency>
     </dependencies>

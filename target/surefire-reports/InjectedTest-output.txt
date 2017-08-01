@@ -1,35 +1,35 @@
-Aug 01, 2017 10:45:56 AM org.eclipse.jetty.util.log.Log initialized
-INFO: Logging initialized @679ms
-Exploding /Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-war/1.625.3/jenkins-war-1.625.3-war-for-test.jar into /Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+Aug 01, 2017 11:40:55 AM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @471ms
+Picking up existing exploded jenkins.war at /Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test
+Aug 01, 2017 11:40:56 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
 WARNING: Empty contextPath
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.server.Server doStart
+Aug 01, 2017 11:40:57 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+Aug 01, 2017 11:40:57 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
 INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.w.WebAppContext@7096b474{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,AVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@61c8c9d6{HTTP/1.1}{localhost:56424}
-Aug 01, 2017 10:46:00 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @4700ms
-Aug 01, 2017 10:46:01 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:40:57 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@5066d65f{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,AVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
+Aug 01, 2017 11:40:57 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@aafcffa{HTTP/1.1}{localhost:58428}
+Aug 01, 2017 11:40:57 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @1933ms
+Aug 01, 2017 11:40:58 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started initialization
-Aug 01, 2017 10:46:16 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:08 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Listed all plugins
-Aug 01, 2017 10:46:16 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:08 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Prepared all plugins
-Aug 01, 2017 10:46:16 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:08 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Started all plugins
-Aug 01, 2017 10:46:16 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:08 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Augmented all extensions
-Aug 01, 2017 10:46:24 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:11 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Loaded all jobs
-Aug 01, 2017 10:46:27 AM org.jenkinsci.main.modules.sshd.SSHD start
-INFO: Started SSHD at port 56430
-Aug 01, 2017 10:46:27 AM jenkins.InitReactorRunner$1 onAttained
+Aug 01, 2017 11:41:13 AM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 58438
+Aug 01, 2017 11:41:13 AM jenkins.InitReactorRunner$1 onAttained
 INFO: Completed initialization
-Aug 01, 2017 10:46:27 AM hudson.UDPBroadcastThread run
+Aug 01, 2017 11:41:13 AM hudson.UDPBroadcastThread run
 WARNING: UDP handling problem
 java.net.SocketException: Can't assign requested address
 	at java.net.PlainDatagramSocketImpl.join(Native Method)
@@ -37,17 +37,17 @@ java.net.SocketException: Can't assign requested address
 	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
 	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:77)
 
-Aug 01, 2017 10:46:27 AM org.eclipse.jetty.server.Server doStart
+Aug 01, 2017 11:41:13 AM org.eclipse.jetty.server.Server doStart
 INFO: jetty-9.2.15.v20160210
-Aug 01, 2017 10:46:27 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.s.ServletContextHandler@355e34c7{/,null,AVAILABLE}
-Aug 01, 2017 10:46:27 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@744f7d32{HTTP/1.1}{0.0.0.0:56432}
-Aug 01, 2017 10:46:27 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @31860ms
-Aug 01, 2017 10:46:31 AM org.eclipse.jetty.server.AbstractConnector doStop
-INFO: Stopped ServerConnector@61c8c9d6{HTTP/1.1}{localhost:0}
-Aug 01, 2017 10:46:31 AM org.eclipse.jetty.server.handler.ContextHandler doStop
-INFO: Stopped o.e.j.w.WebAppContext@7096b474{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,UNAVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
+Aug 01, 2017 11:41:13 AM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@74cec793{/,null,AVAILABLE}
+Aug 01, 2017 11:41:13 AM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@192f2f27{HTTP/1.1}{0.0.0.0:58440}
+Aug 01, 2017 11:41:13 AM org.eclipse.jetty.server.Server doStart
+INFO: Started @17821ms
+Aug 01, 2017 11:41:16 AM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@aafcffa{HTTP/1.1}{localhost:0}
+Aug 01, 2017 11:41:16 AM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@5066d65f{/,file:/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test/,UNAVAILABLE}{/Users/albertxavier/workspace/Demo-Jenkins-UI/target/jenkins-for-test}
 WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
 WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

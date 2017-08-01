@@ -51,7 +51,7 @@ THE SOFTWARE.
           </f:form>
       </f:section>
       
-      <f:section title="DropsdownList depend on other UI controller">
+      <f:section title="DropdownList depend on other UI controller">
           <p>Select different radio button below to see what will happen.</p>
           <p> </p>
           <f:form name="from2" method="" action="post">
