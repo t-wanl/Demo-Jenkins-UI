@@ -2,24 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18a43925-17c7-4ddd-bd54-ccf549abde48" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Template.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ui_dev/myScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Template.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/DescriptorImpl/doFillDropdownListSelectedAaaItems.stapler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins/DescriptorImpl/doFillDropdownListSelectedAaaItems.stapler" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Template.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Template.stapler" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/dropdownList.jelly" afterPath="$PROJECT_DIR$/src/main/resources/ui/dropdownList.jelly" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/dropdownList/dropdownList.js" afterPath="$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/radioBlock.jelly" afterPath="$PROJECT_DIR$/src/main/resources/ui/radioBlock.jelly" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/radioBlock/radioBlock.js" afterPath="$PROJECT_DIR$/src/main/resources/ui/radioBlock/radioBlock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/tab.jelly" afterPath="$PROJECT_DIR$/src/main/resources/ui/tab.jelly" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/uidev/taglib" afterPath="$PROJECT_DIR$/src/main/resources/ui/taglib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList$DescriptorImpl.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList$DescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins$DescriptorImpl.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins$DescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock$DescriptorImpl.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock$DescriptorImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui.hpi" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui.hpi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui.jar" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo-jenkins-ui/WEB-INF/lib/demo-jenkins-ui.jar" afterPath="$PROJECT_DIR$/target/demo-jenkins-ui/WEB-INF/lib/demo-jenkins-ui.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins$DescriptorImpl.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins$DescriptorImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample$SourceFile.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample$SourceFile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.class" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" afterPath="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly" afterPath="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList.stapler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/DescriptorImpl/doVerify.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/DescriptorImpl/doVerify.stapler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins.stapler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins/DescriptorImpl/doVerify.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins/DescriptorImpl/doVerify.stapler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock.stapler" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Radioblock/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.stapler" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins.stapler" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root/index.jelly" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/Root/index.jelly" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.java" afterPath="$PROJECT_DIR$/target/classes/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/findbugs.xml" afterPath="$PROJECT_DIR$/target/findbugs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/findbugsXml.xml" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
@@ -39,6 +74,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/RadioblockJenkins.DescriptorImpl.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/RadioblockJenkins.DescriptorImpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/RadioblockJenkins.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/RadioblockJenkins.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Root.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Root.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Template.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/Template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.SourceFile.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.SourceFile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISample.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISampleDescriptor.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/UISampleDescriptor.html" />
@@ -51,6 +87,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/RadioblockJenkins.DescriptorImpl.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/RadioblockJenkins.DescriptorImpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/RadioblockJenkins.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/RadioblockJenkins.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Root.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Root.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Template.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/Template.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.SourceFile.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.SourceFile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISample.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISampleDescriptor.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/class-use/UISampleDescriptor.html" />
@@ -59,9 +96,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-use.html" afterPath="$PROJECT_DIR$/target/site/apidocs/jenkins/plugins/ui_samples/package-use.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/InjectedTest-output.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/InjectedTest-output.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/InjectedTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/InjectedTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-InjectedTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-InjectedTest.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,81 +108,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radioBlock.jelly" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/radioBlock.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tab.jelly" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/tab.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="entry.jelly" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/entry.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textbox.jelly" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/textbox.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dropdownList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/dropdownList/dropdownList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="151">
+              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -157,8 +121,8 @@
       <file leaf-file-name="DropdownList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="155">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,19 +130,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Radioblock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java">
+      <file leaf-file-name="DropdownListJenkins.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-              <folding>
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1467#1477#0" expanded="true" />
-                <element signature="e#2169#2179#0" expanded="true" />
-                <element signature="e#2889#2890#0" expanded="true" />
-                <element signature="e#2932#2933#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="268">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="48" column="117" lean-forward="false" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="117" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.jelly" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/entry.jelly">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdownList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jelly" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdownList.jelly" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/ui/dropdownList.jelly">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,16 +201,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addAll</find>
-      <find>alloy</find>
-      <find>ExtensionList</find>
-      <find>getAll</find>
-      <find>getJSONObject</find>
-      <find>gear</find>
       <find>all</find>
       <find>getDynamic</find>
       <find>getAllOther</find>
-      <find>dynamic</find>
       <find>Dynamic</find>
       <find>DynamicDynamic</find>
       <find>Extension</find>
@@ -224,6 +224,13 @@
       <find>preSelect</find>
       <find>t-wan</find>
       <find>ui:ta</find>
+      <find>generateEntries</find>
+      <find>cla</find>
+      <find>dropdownListMode</find>
+      <find>createSelectField</find>
+      <find>uidev</find>
+      <find>dynamic</find>
+      <find>dropdownListSelectedS1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,28 +246,36 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListDes/index.jelly" />
         <option value="$PROJECT_DIR$/src/main/resources/lib/samples/sample.jelly" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui/radioBlock/radioBlock.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui/checkboxBlock.jelly" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/dropdownList/dropdownList.js" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Template.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Template/config.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/booleanRadioBlock/booleanRadioBlock.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/booleanRadioBlock/booleanRadioBlock.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/booleanRadio.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/radio.jelly" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/BooleanRadio.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/uidev/booleanRadioBlock.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/BooleanRadio/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui/radioBlock.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java" />
         <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly" />
         <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java" />
         <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/index.jelly" />
-        <option value="$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/ui/radioBlock/radioBlock.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/ui/radioBlock.jelly" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ui/tab.jelly" />
-        <option value="$PROJECT_DIR$/src/main/resources/ui/checkboxBlock.jelly" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" />
-        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
-        <option value="$PROJECT_DIR$/src/main/resources/uidev/dropdownList/dropdownList.js" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Template.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Template/config.jelly" />
-        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly" />
         <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/ui/dropdownList.jelly" />
+        <option value="$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java" />
       </list>
     </option>
   </component>
@@ -347,6 +362,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -427,7 +443,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uidev" />
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,7 +469,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uidev" />
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="radioBlock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-jenkins-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo-Jenkins-UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -510,6 +556,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui_samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-jenkins-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo-Jenkins-UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui_samples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RadioblockJenkins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,19 +711,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly&#10;pom&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/pom.xml&#10;dropd&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/DropdownList.java&#10;inde&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly&#10;uisamp&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISample.java&#10;drop&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/ui/dropdownList.jelly&#10;radio&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/Radioblock.java&#10;nde&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly&#10;behavi&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-war/1.625.3/jenkins-war-1.625.3-war-for-test.jar!/scripts/behavior.js&#10;header&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/layout/header.jelly&#10;sample&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/lib/samples/sample.jelly&#10;dropdo&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/ui/dropdownList/dropdownList.js&#10;root&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/Root.java&#10;uisample&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISample.java&#10;getIconFileName&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.Root#getIconFileName&#10;etUrlName&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.UISample#getUrlName&#10;getDynamic&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.Root#getDynamic" />
+    <property name="SearchEverywhereHistoryKey" value="select.jell&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/select.jelly&#10;entry&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/entry.jelly&#10;boole&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/booleanRadio.jelly&#10;radio&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/uidev/radioBlock.jelly&#10;dropdown&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/dropdownListBlock.jelly&#10;bool&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/booleanRadio.jelly&#10;index&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly&#10;pom&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/pom.xml&#10;dropd&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/DropdownList.java&#10;inde&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly&#10;uisamp&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISample.java&#10;drop&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/ui/dropdownList.jelly&#10;nde&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly&#10;behavi&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-war/1.625.3/jenkins-war-1.625.3-war-for-test.jar!/scripts/behavior.js&#10;header&#9;FILE&#9;jar:///Users/albertxavier/.m2/repository/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/layout/header.jelly&#10;sample&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/lib/samples/sample.jelly&#10;dropdo&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/resources/ui/dropdownList/dropdownList.js&#10;root&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/Root.java&#10;uisample&#9;FILE&#9;file:///Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java/jenkins/plugins/ui_samples/UISample.java&#10;getIconFileName&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.Root#getIconFileName&#10;etUrlName&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.UISample#getUrlName&#10;getDynamic&#9;PSI&#9;JAVA://jenkins.plugins.ui_samples.Root#getDynamic" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/uidev" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jenkins.plugins.ui_samples" />
     </key>
@@ -938,6 +1020,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -947,19 +1030,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32229403" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28164557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28164557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24878837" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40031645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40031645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1002,66 +1085,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="47" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/HeteroList/Config/config.jelly" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/AutoCompleteTextBox.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/CopyButton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DynamicDropDownListBox.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DynamicComboBox.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/Descriptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
-          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/jenkins/plugins/ui_samples/HeteroListTest.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="106" column="24" lean-forward="false" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/RootAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/Action.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/jenkins/model/Jenkins.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24600">
-          <caret line="2147" column="35" lean-forward="false" selection-start-line="2147" selection-start-column="35" selection-end-line="2147" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/ExtensionList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/jenkins/model/ModelObjectWithContextMenu.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="149" column="36" lean-forward="false" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/kohsuke/stapler/stapler/1.237/stapler-1.237.jar!/org/kohsuke/stapler/DataBoundConstructor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1073,14 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/dropdownListBlock.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,7 +1125,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/taglib">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/taglib">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1116,18 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1146,24 +1154,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/radio.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/layout/header.jelly">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1316#1320#0" expanded="false" />
-            <element signature="e#1344#1348#0" expanded="false" />
-            <element signature="e#1413#1417#0" expanded="false" />
-            <element signature="e#1467#1471#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1171,51 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/radioBlock/radioBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#652#653#0" expanded="false" />
-            <element signature="e#686#687#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#2399#2400#0" expanded="false" />
-            <element signature="e#2476#2477#0" expanded="false" />
-            <element signature="e#2633#2634#0" expanded="false" />
-            <element signature="e#2673#2674#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="49" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1223,14 +1172,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/dropdownList.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1243,89 +1184,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/booleanRadio.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/checkboxBlock.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="61" column="20" lean-forward="true" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/checkboxBlock.jelly" />
     <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Template.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#319#349#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/dropdownList/dropdownList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="94" column="46" lean-forward="false" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1467#1477#0" expanded="true" />
-            <element signature="e#2169#2179#0" expanded="true" />
-            <element signature="e#2889#2890#0" expanded="true" />
-            <element signature="e#2932#2933#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1337,58 +1201,245 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Template/config.jelly">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Template/config.jelly" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/dropdownListBlock.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/layout/renderOnDemand.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/class-entry.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1305#1309#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/radio.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/BooleanRadio/index.jelly" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/BooleanRadio.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/radio.jelly" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/booleanRadio.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/booleanRadio.jelly" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/booleanRadioBlock.jelly" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/booleanRadioBlock/booleanRadioBlock.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/radioBlock/radioBlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/radioBlock.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="114" lean-forward="false" selection-start-line="55" selection-start-column="114" selection-end-line="55" selection-end-column="114" />
+          <folding>
+            <element signature="e#1832#1836#0" expanded="false" />
+            <element signature="e#2440#2444#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/RadioblockJenkins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="35" column="48" lean-forward="false" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/RootAction.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/Action.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/radioBlock.jelly">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/jenkins/model/ModelObjectWithContextMenu.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        <state relative-caret-position="1017">
+          <caret line="110" column="43" lean-forward="false" selection-start-line="110" selection-start-column="42" selection-end-line="110" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/uidev/tab.jelly">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/UISampleDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/hudson/model/ModelObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Radioblock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/select.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Root/index.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/Root.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/tab.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/jenkins-core/1.625.3/jenkins-core-1.625.3.jar!/lib/form/entry.jelly">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="72" column="22" lean-forward="false" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/RadioblockJenkins/index.jelly">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="73" column="9" lean-forward="false" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/Radioblock/index.jelly">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="151">
+          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownList/index.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="61" column="85" lean-forward="false" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/dropdownList/dropdownList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ui/dropdownList.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jenkins/plugins/ui_samples/DropdownListJenkins/index.jelly">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="48" column="117" lean-forward="false" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jenkins/plugins/ui_samples/DropdownListJenkins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,16 +1,6 @@
 package jenkins.plugins.ui_samples;
 
-import hudson.ExtensionList;
-import hudson.ExtensionPoint;
-import hudson.model.Action;
-import hudson.model.Hudson;
 import hudson.model.Descriptor;
-import hudson.model.Describable;
-import jenkins.model.Jenkins;
-import hudson.DescriptorExtensionList;
-
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
 
 /**
  * @author Kohsuke Kawaguchi

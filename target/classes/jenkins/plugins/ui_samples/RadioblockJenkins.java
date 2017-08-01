@@ -8,7 +8,9 @@ import hudson.Extension;
 import org.kohsuke.stapler.DataBoundConstructor;
 
 /**
- * @author Alan.Harder@oracle.com
+ * This class defines the sample of Jenkins version of &lt;radioBlock&gt;
+ *
+ * @author t-wanl@microsoft.com
  */
 
 @Extension
@@ -31,7 +33,7 @@ public class RadioblockJenkins extends UISample {
 
         @Override
         public String getDisplayName() {
-            return "Radioblock";
+            return "Radioblock - Jenkins Version";
         }
 
 

@@ -9,7 +9,6 @@ import hudson.model.Describable;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import jenkins.model.Jenkins;
@@ -113,8 +112,5 @@ public abstract class UISample implements ExtensionPoint, Action, Describable<UI
             copy(resolve().openStream(),rsp.getOutputStream());
         }
     }
-
-
-
 
 }

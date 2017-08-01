@@ -10,7 +10,9 @@ import javax.servlet.ServletException;
 import java.io.IOException;
 
 /**
- * @author Alan.Harder@oracle.com
+ * This class defines the sample of Jenkins version of &lt;dropdownList&gt;
+ *
+ * @author t-wanl@microsoft.com
  */
 
 @Extension
@@ -18,21 +20,18 @@ public class DropdownListJenkins extends UISample {
 
     public static final String DEFAULT_SELECTED = "apple";
 
-    @Override
-    public String getDescription() {
-        return "Show different form elements based on choice in a &lt;select> control";
-    }
+    private String dropdownListSelectedS1;
 
-    private String dropdownListSelected;
-    private String dropdownListSelectedAaa;
+    private String dropdownListSelectedS2;
+
     private String preSelect;
 
-    public String getDropdownListSelected() {
-        return dropdownListSelected;
+    public String getDropdownListSelectedS1() {
+        return dropdownListSelectedS1;
     }
 
-    public String getDropdownListSelectedAaa() {
-        return dropdownListSelectedAaa;
+    public String getDropdownListSelectedS2() {
+        return dropdownListSelectedS2;
     }
 
     public String getPreSelect() {
@@ -43,20 +42,27 @@ public class DropdownListJenkins extends UISample {
         this(DEFAULT_SELECTED, DEFAULT_SELECTED, DEFAULT_SELECTED);
     }
     @DataBoundConstructor public DropdownListJenkins(
-            final String dropdownListSelected,
-            final String dropdownListSelectedAaa,
+            final String dropdownListSelectedS1,
+            final String dropdownListSelectedS2,
             final String preSelect
     ) {
         super();
-        this.dropdownListSelected = dropdownListSelected;
+        this.dropdownListSelectedS1 = dropdownListSelectedS1;
+        this.dropdownListSelectedS2 = dropdownListSelectedS2;
         this.preSelect = preSelect;
     }
 
+
+    @Override
+    public String getDescription() {
+        return "Show different form elements based on choice in a &lt;select> control";
+    }
+
     public Boolean isType(final String type) {
-        if (this.dropdownListSelected == null && type.equals("apple")) {
+        if (this.dropdownListSelectedS1 == null && type.equals("apple")) {
             return true;
         }
-        return type != null && type.equalsIgnoreCase(this.dropdownListSelected);
+        return type != null && type.equalsIgnoreCase(this.dropdownListSelectedS1);
     }
 
     @Extension
@@ -64,7 +70,7 @@ public class DropdownListJenkins extends UISample {
 
         @Override
         public String getDisplayName() {
-            return "DropdownList";
+            return "DropdownList - Jenkins Version";
         }
 
         public ListBoxModel doFillPreSelectItems() throws IOException, ServletException  {
@@ -75,14 +81,13 @@ public class DropdownListJenkins extends UISample {
         }
 
         public FormValidation doVerify(
-                @QueryParameter String dropdownListSelected
+                @QueryParameter String dropdownListSelectedS1
                 ) {
-            System.out.println(dropdownListSelected);
-            String feedback = "You select " + dropdownListSelected;
+            String feedback = "You select " + (dropdownListSelectedS1 == null? "NULL" : dropdownListSelectedS1.toUpperCase());
             return FormValidation.ok(feedback);
         }
 
-        public String doFillDropdownListSelectedAaaItems(
+        public String doFillDropdownListSelectedS2Items(
                 @QueryParameter String preSelect
         ) throws IOException, ServletException {
             if (preSelect.equalsIgnoreCase("apple")) {

@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 -->
 <?jelly escape-by-default='true'?>
-<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/uidev">
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:s="/lib/samples" xmlns:f="/lib/form"  xmlns:ui="/ui">
 
 
   <s:sample title="Dropdown List Sample">
@@ -34,7 +34,7 @@ THE SOFTWARE.
           <f:form name="from1" method="" action="post">
 
           <table width="100%">
-                <ui:dropdownList title="Fruit" name="dropdownListSelected" tablename="dropdownListContent">
+                <ui:dropdownList title="Fruit" selectedName="dropdownListSelectedS1" name="dropdownListContentS1">
               <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
                   <f:entry title="Number of apple">
                       <f:textbox/>
@@ -46,7 +46,7 @@ THE SOFTWARE.
                   </f:entry>
               </f:dropdownListBlock>
           </ui:dropdownList>
-                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
+                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelectedS1"/>
               </table>
           </f:form>
       </f:section>
@@ -59,7 +59,7 @@ THE SOFTWARE.
                   <f:entry title="Select Fruit" field="preSelect">
                       <f:select/>
                   </f:entry>
-                  <ui:dropdownList title="Fruit" name="dropdownListSelectedAaa" tablename="dropdownListContentAaa">
+                  <ui:dropdownList title="Fruit" selectedName="dropdownListSelectedS2" name="dropdownListContentS2">
                       <f:dropdownListBlock title="Apple" value="apple" selected="true">
                           <f:entry title="Number of apple">
                               <f:textbox/>

@@ -34,7 +34,7 @@ THE SOFTWARE.
           <f:form name="from1" method="" action="post">
 
           <table width="100%">
-                <f:dropdownList title="Fruit" name="dropdownListSelected">
+                <f:dropdownList title="Fruit" name="dropdownListSelectedS1">
               <f:dropdownListBlock title="Apple" value="apple" selected="${instance == null || instance.isType('apple')}">
                   <f:entry title="Number of apple">
                       <f:textbox/>
@@ -46,7 +46,7 @@ THE SOFTWARE.
                   </f:entry>
               </f:dropdownListBlock>
           </f:dropdownList>
-                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelected"/>
+                <f:validateButton title="Verify" progress="Verifying..." method="verify" with="dropdownListSelectedS1"/>
               </table>
           </f:form>
       </f:section>
@@ -59,7 +59,7 @@ THE SOFTWARE.
                   <f:entry title="Select Fruit" field="preSelect">
                       <f:select/>
                   </f:entry>
-                  <f:dropdownList title="Fruit" name="dropdownListSelectedAaa">
+                  <f:dropdownList title="Fruit" name="dropdownListSelectedS2">
                       <f:dropdownListBlock title="Apple" value="apple" selected="true">
                           <f:entry title="Number of apple">
                               <f:textbox/>

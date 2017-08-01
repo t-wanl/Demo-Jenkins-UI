@@ -1,10 +1,7 @@
 package jenkins.plugins.ui_samples;
 
-import hudson.DescriptorExtensionList;
 import hudson.Extension;
-import hudson.ExtensionList;
 import hudson.model.RootAction;
-import hudson.model.Descriptor;
 import jenkins.model.ModelObjectWithContextMenu;
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
@@ -18,6 +15,7 @@ import java.util.List;
  */
 @Extension
 public class Root implements RootAction, ModelObjectWithContextMenu {
+
     public String getIconFileName() {
         return "gear.png";
     }
