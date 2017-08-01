@@ -8,7 +8,18 @@ Jenkins-Version: 1.625.3
 Plugin-Developers: 
 Libraries: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/reso
  urces,/Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/java,/Us
- ers/albertxavier/workspace/Demo-Jenkins-UI/target/classes
+ ers/albertxavier/workspace/Demo-Jenkins-UI/target/classes,/Users/albe
+ rtxavier/.m2/repository/commons-codec/commons-codec/1.8/commons-codec
+ -1.8.jar,/Users/albertxavier/.m2/repository/com/jcraft/jsch/0.1.54/js
+ ch-0.1.54.jar,/Users/albertxavier/.m2/repository/org/apache/httpcompo
+ nents/httpcore/4.4.1/httpcore-4.4.1.jar,/Users/albertxavier/.m2/repos
+ itory/org/antlr/antlr4-runtime/4.5/antlr4-runtime-4.5.jar,/Users/albe
+ rtxavier/.m2/repository/org/apache/httpcomponents/httpclient/4.5/http
+ client-4.5.jar,/Users/albertxavier/.m2/repository/albertxavier/jenkin
+ s-dynamic-databinding-ui-control-library/1.0/jenkins-dynamic-databind
+ ing-ui-control-library-1.0.jar,/Users/albertxavier/.m2/repository/org
+ /abego/treelayout/org.abego.treelayout.core/1.0.1/org.abego.treelayou
+ t.core-1.0.1.jar
 Resource-Path: /Users/albertxavier/workspace/Demo-Jenkins-UI/src/main/
  webapp
 
