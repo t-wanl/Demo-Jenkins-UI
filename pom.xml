@@ -53,11 +53,11 @@ THE SOFTWARE.
         <url>https://github.com/jenkinsci/ui-samples-plugin</url>
     </scm>
     <repositories>
-        <repository>
-        <id>tags</id>
-        <name>Custom Tags</name>
-        <url>https://raw.githubusercontent.com/t-wanl/Jenkins-Dynamic-Databinding-UI-Control-Library/master/jar/</url>
-        </repository>
+        <!--<repository>-->
+        <!--<id>tags</id>-->
+        <!--<name>Custom Tags</name>-->
+        <!--<url>https://raw.githubusercontent.com/t-wanl/Jenkins-Dynamic-Databinding-UI-Control-Library/master/jar/</url>-->
+        <!--</repository>-->
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
@@ -77,10 +77,15 @@ THE SOFTWARE.
             <version>1.5.0</version>
             <scope>test</scope>
         </dependency>
+        <!--<dependency>-->
+        <!--<groupId>albertxavier</groupId>-->
+        <!--<artifactId>jenkins-dynamic-databinding-ui-control-library</artifactId>-->
+        <!--<version>1.0</version>-->
+        <!--</dependency>-->
         <dependency>
-        <groupId>albertxavier</groupId>
-        <artifactId>jenkins-dynamic-databinding-ui-control-library</artifactId>
-        <version>1.0</version>
+            <groupId>org.jenkins-ci.plugins</groupId>
+            <artifactId>azure-commons</artifactId>
+            <version>${azure-commons.version}</version>
         </dependency>
     </dependencies>
 
@@ -122,5 +127,9 @@ THE SOFTWARE.
           </plugin>
       </plugins>
   </build>
+
+    <properties>
+        <azure-commons.version>1.0-SNAPSHOT</azure-commons.version>
+    </properties>
 
 </project>

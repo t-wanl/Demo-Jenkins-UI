@@ -80,6 +80,10 @@ public class DropdownList extends UISample {
             return model;
         }
 
+        public String doFillDropdownListSelectedS1Items() {
+            return null;
+        }
+
         public FormValidation doVerify(@QueryParameter String dropdownListSelectedS1) {
             String feedback = "You select " + (dropdownListSelectedS1 == null? "NULL" : dropdownListSelectedS1.toUpperCase());
             return FormValidation.ok(feedback);
